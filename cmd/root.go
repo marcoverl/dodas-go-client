@@ -82,6 +82,7 @@ type confCloud struct {
 	Password      string `yaml:"password"`
 	Host          string `yaml:"host"`
 	Tenant        string `yaml:"tenant"`
+	AuthURL       string `yaml:"auth_url"`
 	AuthVersion   string `yaml:"auth_version"`
 	Domain        string `yaml:"domain"`
 	ServiceRegion string `yaml:"service_region"`
