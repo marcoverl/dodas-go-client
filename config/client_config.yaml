@@ -6,6 +6,8 @@ cloud:
     username: my_username
     password: < PUT HERE YOUR OpenStack Password >
     tenant: my_os_tenant
+    auth_url: my_cloud_auth_endpoint
+    # e.g. auth_url: https://keystone-cv.pd.infn.it
     auth_version: 3.x_password
     domain: default
 im:
